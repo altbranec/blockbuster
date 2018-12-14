@@ -1,31 +1,24 @@
 package ar.com.nec.blockbuster.servlet;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import ar.com.nec.blockbuster.Connection;
+import ar.com.nec.blockbuster.entities.Cliente;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.xml.bind.ParseConversionEvent;
-
-import ar.com.nec.blockbuster.Connection;
-import ar.com.nec.blockbuster.entities.Genero;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
-import org.json.simple.JSONObject;
-
-import ar.com.nec.blockbuster.entities.Cliente;
-import ar.com.nec.blockbuster.entities.Pelicula;
+import java.io.IOException;
 
 /**
  * Servlet implementation class Usuario
  */
 @WebServlet("/Usuario")
 public class Usuario extends HttpServlet {
-	private static final long serialVersionUID = 1L;
-       
+    private static final long serialVersionUID = 1L;
+
     /**
      * @see HttpServlet#HttpServlet()
      */
@@ -34,34 +27,44 @@ public class Usuario extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
 
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-	
-		Cliente usuario = null;
-		String action = request.getParameter("action");
-		if("create".equals(action)) {
+    /**
+     * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+     */
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-			String nombre=request.getParameter("nombre");
-			int dni=Integer.parseInt(request.getParameter("dni"));
-			usuario = new Cliente(nombre,dni);
-			
-		}
-		JSONObject json = new JSONObject();
-		if(usuario!=null) {
-			json.put("nombre", usuario.getNombre());
-			json.put("dni", usuario.getDni());
-		}
-		response.getWriter().append(json.toJSONString());
-	}
 
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
-	}
+        String action = request.getParameter("action");
+        if("create".equals(action)) {
+
+            Session sessionObj;
+            Transaction tx;
+            Cliente cliente = null;
+            try {
+                sessionObj= Connection.session().openSession();
+                tx = sessionObj.beginTransaction();
+                cliente = new Cliente(request.getParameter("nombre"),Integer.parseInt(request.getParameter("dni")));
+                sessionObj.save(cliente);
+                tx.commit();
+                if(cliente!=null) {
+                    response.getWriter().append("Creado correctamente");
+                }
+
+
+            } catch(Exception sqlException) {
+                sqlException.printStackTrace();
+            }
+
+        }
+
+
+    }
+
+    /**
+     * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+     */
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        // TODO Auto-generated method stub
+        doGet(request, response);
+    }
 
 }
