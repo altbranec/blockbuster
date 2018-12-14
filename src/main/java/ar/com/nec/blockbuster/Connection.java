@@ -6,7 +6,6 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 
 public class Connection {
-
     static SessionFactory sessionFactoryObj = null;
     private static SessionFactory buildSessionFactory() {
         // Creating Configuration Instance & Passing Hibernate Configuration File
@@ -25,6 +24,4 @@ public class Connection {
             return buildSessionFactory();
         }else{ return sessionFactoryObj;}
     }
-
-
 }
