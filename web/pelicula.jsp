@@ -13,6 +13,6 @@
 <body>
 <button type="button" onclick="window.location.href='peliculaMethods.jsp?action=create'">Crear Pelicula</button>
 <button type="button" onclick="window.location.href='peliculaMethods.jsp?action=delete'">Eliminar Pelicula</button>
-<button type="button" onclick="window.location.href='peliculaMethods.jsp?action=catalogo'">Catalogo</button>
+<button type="button" onclick="window.location.href='peliculaMethods.jsp?action=showCatalog'">Ver Catalogo</button>
 </body>
 </html>

@@ -7,11 +7,11 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>$Title$</title>
-  </head>
-  <body>
-  <button type="button" onclick="window.location.href='usuario.jsp'">Usuarios</button>
-  <button type="button" onclick="window.location.href='pelicula.jsp'">Peliculas</button>
-  </body>
+</head>
+<body>
+<button type="button" onclick="window.location.href='usuario.jsp'">Usuarios</button>
+<button type="button" onclick="window.location.href='pelicula.jsp'">Peliculas</button>
+</body>
 </html>

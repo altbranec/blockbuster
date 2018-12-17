@@ -11,11 +11,11 @@
     <title>Title</title>
 </head>
 <body>
-<% String action=request.getParameter("action"); %>
+<% String action = request.getParameter("action"); %>
 <form method="get" action="Usuario">
     <%
-        switch(action) {
-            case "create" : %>
+        switch (action) {
+            case "create": %>
     Nombre:
     <input type="text" name="nombre"/><br>
     Dni:
@@ -23,19 +23,19 @@
     <input type="hidden" name="action" value="create"/><br>
     <input type="submit" value="Enviar"/>
     <% break; // optional
-        case "delete" : %>
+        case "delete": %>
     Dni:
     <input type="text" name="dni"/><br>
     <input type="hidden" name="action" value="delete"/><br>
     <input type="submit" value="Enviar"/>
     <% break; // optional
-        case "Alquilar" : %>
+        case "alquilar": %>
     Nombre Pelicula:
     <input type="text" name="nombre"/><br>
     <input type="hidden" name="action" value="alquilar"/><br>
     <input type="submit" value="Enviar"/>
     <% break; // optional
-        case "devolver" : %>
+        case "devolver": %>
     Nombre Pelicula:
     <input type="text" name="nombre"/><br>
     Dni Usuario:

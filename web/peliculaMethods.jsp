@@ -11,6 +11,30 @@
     <title>Title</title>
 </head>
 <body>
-
+<% String action = request.getParameter("action"); %>
+<form method="get" action="Peliculas">
+        <%
+        switch (action) {
+            case "create": %>
+    Nombre:
+    <input type="text" name="nombre"/><br>
+    Genero:
+    <input type="text" name="genero"/><br>
+    <input type="hidden" name="action" value="create"/><br>
+    <input type="submit" value="Enviar"/>
+        <% break; // optional
+        case "delete": %>
+    Nombre Pelicula:
+    <input type="text" name="nombre"/><br>
+    <input type="hidden" name="action" value="delete"/><br>
+    <input type="submit" value="Enviar"/>
+        <% break; // optional
+        case "showCatalog": %>
+    Nombre Pelicula:
+    <input type="text" name="nombre"/><br>
+    <input type="hidden" name="action" value="alquilar"/><br>
+    <input type="submit" value="Enviar"/>
+        <% break; // optional
+    } %>
 </body>
 </html>
