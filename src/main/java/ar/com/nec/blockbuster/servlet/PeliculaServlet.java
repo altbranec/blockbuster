@@ -3,7 +3,9 @@ package ar.com.nec.blockbuster.servlet;
 import ar.com.nec.blockbuster.Connection;
 import ar.com.nec.blockbuster.entities.Cliente;
 import ar.com.nec.blockbuster.entities.Pelicula;
-import org.hibernate.*;
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -16,14 +18,14 @@ import java.util.ArrayList;
 /**
  * Servlet implementation class Usuario
  */
-@WebServlet("/Usuario")
-public class Usuario extends HttpServlet {
+@WebServlet("/PeliculaServlet")
+public class PeliculaServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Usuario() {
+    public PeliculaServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -33,22 +35,20 @@ public class Usuario extends HttpServlet {
      */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-
         String action = request.getParameter("action");
         Session sessionObj;
         Transaction tx;
 
         if ("create".equals(action)) {
 
-
-            Cliente cliente = null;
+            Pelicula peli = null;
             try {
                 sessionObj = Connection.session().openSession();
                 tx = sessionObj.beginTransaction();
-                cliente = new Cliente(request.getParameter("nombre"), Integer.parseInt(request.getParameter("dni")));
-                sessionObj.save(cliente);
+                peli = new Pelicula(request.getParameter("nombre"), request.getParameter("genero"));
+                sessionObj.save(peli);
                 tx.commit();
-                if (cliente != null) {
+                if (peli != null) {
                     response.getWriter().append("Creado correctamente");
                 }
 
@@ -60,17 +60,25 @@ public class Usuario extends HttpServlet {
         }
 
         if ("delete".equals(action)) {
-            Cliente cliente;
+            Pelicula peli;
             try {
                 sessionObj = Connection.session().openSession();
                 tx = sessionObj.beginTransaction();
-                cliente = new Cliente(request.getParameter("nombre"), Integer.parseInt(request.getParameter("dni")));
-                sessionObj.delete(cliente);
+                peli = new Pelicula(request.getParameter("nombre"), request.getParameter("genero"));
+                sessionObj.delete(peli);
                 tx.commit();
 
             } catch (Exception sqlException) {
                 sqlException.printStackTrace();
             }
+
+        }
+        if ("showCatalog".equals(action)) {
+
+            sessionObj = Connection.session().openSession();
+            Query query = sessionObj.createQuery("FROM Pelicula");
+            ArrayList<Pelicula> peliculas = (ArrayList<Pelicula>) query.list();
+
 
         }
     }

@@ -12,7 +12,7 @@ public class Pelicula {
     private String nombre = "";
 
     @ManyToOne
-    @JoinColumn(name="idGenero", nullable=false)
+    @JoinColumn(name = "idGenero", nullable = false)
     private Genero genero;
 
     @Id
@@ -21,7 +21,9 @@ public class Pelicula {
     private int idPelicula;
 
 
-    public Pelicula(){}
+    public Pelicula() {
+    }
+
     public Pelicula(String nombre, Genero genero) {
         this.nombre = nombre;
         this.genero = genero;
@@ -29,6 +31,11 @@ public class Pelicula {
 
     @ManyToMany(mappedBy = "peliculas")
     private Set<Cliente> clientes = new HashSet<>();
+
+    public Pelicula(String nombre, String genero) {
+        this.nombre = nombre;
+        this.genero.setNombre(genero);
+    }
 
     public int getIdPelicula() {
         return idPelicula;
@@ -41,18 +48,21 @@ public class Pelicula {
     public String getNombre() {
         return nombre;
     }
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
     public Genero getGenero() {
         return genero;
     }
+
     public void setGenero(Genero genero) {
         this.genero = genero;
     }
 
     public String toString() {
-        return "\n\tNombre de pelicula..: "+nombre+"\n\tGenero de pelicula..: "+genero;
+        return "\n\tNombre de pelicula..: " + nombre + "\n\tGenero de pelicula..: " + genero;
     }
 
 }
