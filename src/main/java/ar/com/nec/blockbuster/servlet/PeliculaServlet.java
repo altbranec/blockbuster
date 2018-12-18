@@ -75,9 +75,14 @@ public class PeliculaServlet extends HttpServlet {
             try {
                 sessionObj = Connection.session().openSession();
                 tx = sessionObj.beginTransaction();
-                peli = new Pelicula(request.getParameter("nombre"), request.getParameter("genero"));
-                sessionObj.delete(peli);
-                tx.commit();
+                Query query = sessionObj.createQuery("FROM Pelicula");
+                ArrayList<Pelicula> peliculas = (ArrayList<Pelicula>) query.list();
+                if(peliculas.stream().filter(o -> o.getNombre().equals(request.getParameter("nombre"))).findFirst().isPresent()){
+                    sessionObj.delete(peliculas.stream().filter(o -> o.getNombre().equals(request.getParameter("nombre"))).findFirst().get());
+                    tx.commit();
+                }else{
+                    response.getWriter().append("No existe la pelicula");
+                }
 
             } catch (Exception sqlException) {
                 sqlException.printStackTrace();
