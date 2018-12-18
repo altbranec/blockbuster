@@ -12,7 +12,7 @@
 </head>
 <body>
 <% String action = request.getParameter("action"); %>
-<form method="get" action="Peliculas">
+<form method="get" action="PeliculaServlet">
         <%
         switch (action) {
             case "create": %>
