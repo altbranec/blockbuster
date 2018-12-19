@@ -1,10 +1,8 @@
 package ar.com.nec.blockbuster.servlet;
 
 import ar.com.nec.blockbuster.Connection;
-import ar.com.nec.blockbuster.entities.Cliente;
 import ar.com.nec.blockbuster.entities.Genero;
 import ar.com.nec.blockbuster.entities.Pelicula;
-import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
@@ -14,8 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Optional;
+import java.util.List;
 
 /**
  * Servlet implementation class Usuario
@@ -48,8 +45,8 @@ public class PeliculaServlet extends HttpServlet {
             try {
                 sessionObj = Connection.sessionFactory().openSession();
                 tx = sessionObj.beginTransaction();
-                Query query = sessionObj.createQuery("FROM Genero");
-                ArrayList<Genero> generos = (ArrayList<Genero>) query.list();
+               // Query query = sessionObj.createQuery("FROM Genero");
+                List<Genero> generos = Connection.elementosDeClase(Genero.class);
                 if(generos.stream().filter(o -> o.getNombre().equals(request.getParameter("genero"))).findFirst().isPresent()){
                     peli = new Pelicula(request.getParameter("nombre"), generos.stream().filter(o -> o.getNombre().equals(request.getParameter("genero"))).findFirst().get());
                 }else{
@@ -75,8 +72,8 @@ public class PeliculaServlet extends HttpServlet {
             try {
                 sessionObj = Connection.sessionFactory().openSession();
                 tx = sessionObj.beginTransaction();
-                Query query = sessionObj.createQuery("FROM Pelicula");
-                ArrayList<Pelicula> peliculas = (ArrayList<Pelicula>) query.list();
+               // Query query = sessionObj.createQuery("FROM Pelicula");
+                List<Pelicula> peliculas = Connection.elementosDeClase(Pelicula.class);;
                 if(peliculas.stream().filter(o -> o.getNombre().equals(request.getParameter("nombre"))).findFirst().isPresent()){
                     sessionObj.delete(peliculas.stream().filter(o -> o.getNombre().equals(request.getParameter("nombre"))).findFirst().get());
                     tx.commit();
@@ -91,9 +88,10 @@ public class PeliculaServlet extends HttpServlet {
         }
         if ("showCatalog".equals(action)) {
 
-            sessionObj = Connection.sessionFactory().openSession();
-            Query query = sessionObj.createQuery("FROM Pelicula");
-            ArrayList<Pelicula> peliculas = (ArrayList<Pelicula>) query.list();
+           // sessionObj = Connection.sessionFactory().openSession();
+            List<Pelicula> peliculas = Connection.elementosDeClase(Pelicula.class);;
+            //Query query = sessionObj.createQuery("FROM Pelicula");
+            //ArrayList<Pelicula> peliculas = (ArrayList<Pelicula>) query.list();
 
 
         }

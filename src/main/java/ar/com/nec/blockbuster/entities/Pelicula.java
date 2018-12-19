@@ -1,12 +1,13 @@
 package ar.com.nec.blockbuster.entities;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
 @Entity
 @Table(name = "Pelicula")
-public class Pelicula {
+public class Pelicula implements Serializable {
 
     @Column(name = "nombre")
     private String nombre = "";

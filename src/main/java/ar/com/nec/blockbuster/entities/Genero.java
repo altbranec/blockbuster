@@ -1,11 +1,12 @@
 package ar.com.nec.blockbuster.entities;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Set;
 
 @Entity
 @Table(name = "generos")
-public class Genero {
+public class Genero implements Serializable {
 
     @Id
     @GeneratedValue

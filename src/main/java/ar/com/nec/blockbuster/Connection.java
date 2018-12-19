@@ -31,7 +31,7 @@ public class Connection {
             return buildSessionFactory();
         }else{ return sessionFactoryObj;}
     }
-    private static <T> List<T> elementosDeClase(Class<T> type) {
+    public static <T> List<T> elementosDeClase(Class<T> type) {
         Session sessionObj = sessionFactory().openSession();
         CriteriaQuery<T> criteriaQuery = sessionObj.getCriteriaBuilder().createQuery(type);
         criteriaQuery.from(type);

@@ -7,34 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2fc4f4a-9861-4779-b481-13b606d719ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_6_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_0_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Blockbuster_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Blockbuster_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blockbuster.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Blockbuster.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blockbuster_war_exploded/WEB-INF/classes/ar/com/nec/blockbuster/Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blockbuster_war_exploded/WEB-INF/classes/ar/com/nec/blockbuster/Connection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blockbuster_war_exploded/WEB-INF/classes/ar/com/nec/blockbuster/servlet/PeliculaServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blockbuster_war_exploded/WEB-INF/classes/ar/com/nec/blockbuster/servlet/PeliculaServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blockbuster_war_exploded/WEB-INF/classes/ar/com/nec/blockbuster/servlet/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blockbuster_war_exploded/WEB-INF/classes/ar/com/nec/blockbuster/servlet/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blockbuster_war_exploded/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blockbuster_war_exploded/WEB-INF/lib/hibernate-commons-annotations-4.0.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blockbuster_war_exploded/WEB-INF/lib/hibernate-core-4.3.6.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blockbuster_war_exploded/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blockbuster_war_exploded/WEB-INF/lib/jandex-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blockbuster_war_exploded/WEB-INF/lib/javassist-3.18.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blockbuster_war_exploded/WEB-INF/lib/jboss-logging-3.1.3.GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blockbuster_war_exploded/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blockbuster_war_exploded/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blockbuster_war_exploded/WEB-INF/lib/xml-apis-1.0.b2.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/Connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Genero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Genero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Pelicula.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/servlet/PeliculaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/servlet/PeliculaServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/servlet/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/servlet/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ar/com/nec/blockbuster/Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ar/com/nec/blockbuster/Connection.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,15 +43,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/usuarioMethods.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/peliculaMethods.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -67,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/servlet/PeliculaServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1298">
-              <caret line="91" column="43" lean-forward="true" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
+            <state relative-caret-position="667">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/servlet/Usuario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="408">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Pelicula.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            <state relative-caret-position="136">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,11 +87,64 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Cliente.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="28" column="69" lean-forward="true" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/Connection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="224">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Genero.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
@@ -127,19 +167,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Cliente.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Genero.java" />
         <option value="$PROJECT_DIR$/web/usuario.jsp" />
         <option value="$PROJECT_DIR$/web/usuarioMethods.jsp" />
         <option value="$PROJECT_DIR$/web/pelicula.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Pelicula.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/web/peliculaMethods.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/servlet/Usuario.java" />
         <option value="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/Connection.java" />
         <option value="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/servlet/PeliculaServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/servlet/Usuario.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Genero.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Pelicula.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Cliente.java" />
       </list>
     </option>
   </component>
@@ -225,6 +265,13 @@
             <path>
               <item name="Blockbuster" type="b2602c69:ProjectViewProjectNode" />
               <item name="Blockbuster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blockbuster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blockbuster" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -236,9 +283,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="JPA.DatabaseSchemaImportDialog" value="62e17e2b-2a7d-459e-a79d-96ee42fb69b6" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545227945582" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545234930414" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -247,6 +295,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="ar.com.nec.blockbuster.entities" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -368,7 +421,7 @@
       <workItem from="1545057905801" duration="5688000" />
       <workItem from="1545134686814" duration="345000" />
       <workItem from="1545135123336" duration="11213000" />
-      <workItem from="1545224032461" duration="2606000" />
+      <workItem from="1545224032461" duration="6056000" />
     </task>
     <servers />
   </component>
@@ -381,16 +434,16 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26996000" />
+    <option name="totallyTimeSpent" value="30446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23300971" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994233" visible="true" weight="0.23300971" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info id="Persistence" order="3" side_tool="true" />
+      <window_info id="Persistence" order="3" sideWeight="0.5005767" side_tool="true" visible="true" weight="0.23300971" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
@@ -410,7 +463,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32871974" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.3298731" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -426,6 +479,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/Connection.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/META-INF/application.xml">
@@ -452,41 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Genero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/pelicula.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -508,27 +538,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Pelicula.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state relative-caret-position="336">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Genero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/criteria/AbstractQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        <state relative-caret-position="357">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Pelicula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/entities/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="69" lean-forward="true" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/servlet/PeliculaServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="91" column="43" lean-forward="true" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
+        <state relative-caret-position="667">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -537,18 +619,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/servlet/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="408">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ar/com/nec/blockbuster/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
